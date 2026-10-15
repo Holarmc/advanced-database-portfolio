@@ -28,5 +28,5 @@ All records are synthetic. No real patient information should be inserted.
 ## Normalisation
 The design targets 3NF: separate catalogues (medications, lab tests), master records (patients, staff, branches), transactional headers and line items, and junction tables for staff-branch assignments. Non-key attributes generally depend on the key, the whole key and no other non-key attribute. Batch quantity is deliberately maintained as an operational balance, with inventory movements as an audit-oriented ledger; reconciliation is a later exercise.
 
-## Evidence to collect
-ER diagram, SQL creation output, validation output, pg_catalog constraint inspection, screenshots, and progressive commits. The assessment requires individual understanding and an AI-use declaration where applicable.
+## Evidence submitted
+ER diagram, SQL creation output, validation output, pg_catalog constraint inspection and screenshots.
